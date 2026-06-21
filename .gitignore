@@ -12,8 +12,9 @@ env/
 .env
 
 # Database files
-*.db
-*.sqlite3
+# (Allowed for Streamlit Cloud deployment)
+# *.db
+# *.sqlite3
 
 # Streamlit specific
 .streamlit/credentials.toml
